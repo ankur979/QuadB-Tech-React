@@ -1,5 +1,5 @@
 import React from 'react'
-import "./modabox.css"
+import "./modalbox.css"
 
 const ModalBox = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
